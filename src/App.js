@@ -4,7 +4,7 @@
  Desværre er der nogle auto-imports der fjerner dem.
  */
 /** @jsx jsx */
-import { css, jsx } from "@emotion/core";
+import {css, jsx} from "@emotion/core";
 
 function App() {
   return (
