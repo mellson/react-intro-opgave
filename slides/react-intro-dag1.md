@@ -115,11 +115,11 @@ Idéer 💡
 
 # Opgave
 
-![left](images/annie-spratt-r_m-JKJVto0-unsplash.jpg)
+![left](images/lommeregner.jpg)
 
 Vi skal bygge en _ReactRegner_
 
-- Eksempel
+- [Eksempel](https://reactregner.netlify.com/)
 - JavaScript `eval()`
 - Byg direkte i [CodeSandbox](https://codesandbox.io/s/github/mellson/react-intro-opgave)
 - Eller hent [starter repo her](https://github.com/mellson/react-intro-opgave)
