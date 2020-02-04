@@ -1,24 +1,24 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+/**
+ Det er vigtigt at både jsx og css importeres fra emotion.
+ Ellers virker det ikke.
+ Desværre er der nogle auto-imports der fjerner dem.
+ */
+/** @jsx jsx */
+import { css, jsx } from "@emotion/core";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div
+      css={css`
+        text-align: center;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      `}
+    >
+      <h1>ReactRegner</h1>
     </div>
   );
 }
